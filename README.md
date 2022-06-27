@@ -18,3 +18,9 @@ It's easy to see what's going on here. We've changed the color in the middle of 
 
 You probably didn't notice where the anomaly is. If you did, it probably took you a while.
 
+![I see it now](images/9_with_box.png)
+
+I took a random landscape photo and multiplied all the RGB values of the pixels inside this box by 1.2-- if you look carefully, you can see a few patches of neon.
+
+Can we train a model that can detect anomalies like this? I write a script that scraped around 300 photos and modified them all in subtle ways like in the photo above. To prepare this data, I created a folder with all the altered photos and a dataframe. Each row of the dataframe has a path to a specific photo as well as which part of the photo I altered and the ratio that increased the RGB values of the pixels by.
+
