@@ -14,7 +14,7 @@ For many object detection models, the model is considered good enough if it can 
 
 It's easy to see what's going on here. We've changed the color in the middle of the lake to bright green, and it's not exactly camouflage. Let's make the task harder.
 
-![Where is it](images/9.png)
+![Where is it](images/9.jpg)
 
 You probably didn't notice where the anomaly is. If you did, it probably took you a while.
 
