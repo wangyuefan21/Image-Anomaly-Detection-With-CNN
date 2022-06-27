@@ -8,3 +8,6 @@ Our motivation behind this project was to approach object detection from a diffe
 
 ![That's a pretty big stick](images/dog_ML.png)
 
+For many object detection models, the model is considered good enough if it can do what a human does. What if we could train a model to detect nearly impercetible changes in color and shading? We were curious to test how "sharp" an object detction model's vision could get.
+
+![That's a wicked lake](images/distorted_lake.png)
