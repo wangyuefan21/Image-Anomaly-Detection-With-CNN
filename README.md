@@ -11,3 +11,7 @@ Our motivation behind this project was to approach object detection from a diffe
 For many object detection models, the model is considered good enough if it can do what a human does. What if we could train a model to detect nearly impercetible changes in color and shading? We were curious to test how "sharp" an object detction model's vision could get.
 
 ![That's a wicked lake](images/distorted_lake.png)
+
+It's easy to see what's going on here. We've changed the color in the middle of the lake to bright green, and it's not exactly camouflage.
+
+
