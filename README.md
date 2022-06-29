@@ -20,7 +20,16 @@ You probably didn't notice where the anomaly is. If you did, it probably took yo
 
 ![I see it now](images/9_with_box.png)
 
-We took a random landscape photo and multiplied all the RGB values of the pixels inside this box by 1.2-- if you look carefully, you can see a few patches of neon.
+We took a random landscape photo and multiplied all the RGB values of the pixels inside this box by 1.2-- if you look carefully, you can see a few patches of neon. Let's find out if we train a model that can detect anomalies like this.
 
-Can we train a model that can detect anomalies like this? We write a [script](image_scrambling.ipynb) that scraped around 300 photos and modified them all in subtle ways like in the photo above. To prepare this data, We created a folder with all the altered photos and a dataframe. Each row of the dataframe has a path to a specific photo as well as which part of the photo We altered and the ratio that increased the RGB values of the pixels by.
+## Data Preparation
 
+We write a [script](notebooks/image_scrambling.ipynb) that scraped around 300 photos and modified them all in subtle ways like in the photo above. To prepare this data, We created a folder with all the altered photos and a dataframe. Each row of the dataframe has a path to a specific photo as well as which part of the photo We altered and the ratio that increased the RGB values of the pixels by. This is one of the example:
+
+![picutre example](images/4.jpg)
+
+The dataset we prepare looked like this:
+
+![dataset df](images/df_dataset.jpg)
+
+## Data Preparation
