@@ -1,6 +1,6 @@
 # Image-Anomaly-Detection-With-CNN
 
-This repo contains the slides and Jupyter notebook from Anthony Wang and Yuefan Wang's final project in MSDS 631 Introduction to Deep Learning at University of San Francisco. 
+This repo contains the slides and Jupyter notebook from Anthony Wang and Alan Wang's final project in MSDS 631 Introduction to Deep Learning at University of San Francisco. 
 
 ## Objectives
 
