@@ -24,7 +24,7 @@ We took a random landscape photo and multiplied all the RGB values of the pixels
 
 ## Data Preparation
 
-We wrote a [script](notebooks/image_scrambling.ipynb) that scraped around 300 photos and modified them all in subtle ways like in the photo above. To prepare this data, We created a folder with all the altered photos and a dataframe. Each row of the dataframe has a path to a specific photo as well as which part of the photo We altered and the ratio that increased the RGB values of the pixels. 
+We wrote a [script](notebooks/image_scrambling.ipynb) that scraped around 200 photos and modified them all in subtle ways like in the photo above. To prepare this data, We created a folder with all the altered photos and a dataframe. Each row of the dataframe has a path to a specific photo as well as which part of the photo We altered and the ratio that increased the RGB values of the pixels. 
 
 The dataset we prepared looks like this:
 
