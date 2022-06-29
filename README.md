@@ -59,3 +59,5 @@ We can observe from the picture above that:
 3. Some models are quicker to converge than others. 
 
 Based on the limited approaches we tried, we can conclude that different training techniques and combining numeric features with image data to train a CNN-style model for our task did not help in a meaningful way.
+
+[Presentation Slides](slides.pdf)
