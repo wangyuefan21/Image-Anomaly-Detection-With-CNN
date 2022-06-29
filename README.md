@@ -24,9 +24,7 @@ We took a random landscape photo and multiplied all the RGB values of the pixels
 
 ## Data Preparation
 
-We wrote a [script](notebooks/image_scrambling.ipynb) that scraped around 300 photos and modified them all in subtle ways like in the photo above. To prepare this data, We created a folder with all the altered photos and a dataframe. Each row of the dataframe has a path to a specific photo as well as which part of the photo We altered and the ratio that increased the RGB values of the pixels. This is one example:
-
-![picutre example](images/4.jpg)
+We wrote a [script](notebooks/image_scrambling.ipynb) that scraped around 300 photos and modified them all in subtle ways like in the photo above. To prepare this data, We created a folder with all the altered photos and a dataframe. Each row of the dataframe has a path to a specific photo as well as which part of the photo We altered and the ratio that increased the RGB values of the pixels. 
 
 The dataset we prepared looks like this:
 
@@ -34,7 +32,7 @@ The dataset we prepared looks like this:
 
 We were going to build models to leverage images and numeric features **r** and **discolor_ratio** to predict the coordinates of the center of the anomaly we created in the images, **x** and **y**.
 
-## Model Trained
+## Models Trained
 
 We trained 5 CNN-style models to predict **x** and **y**. Refer to this [notebook](notebooks/model_training.ipynb).
 
