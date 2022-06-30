@@ -2,6 +2,8 @@
 
 This repo contains the slides and Jupyter notebook from Anthony Wang and Alan Wang's final project in MSDS 631 Introduction to Deep Learning at University of San Francisco. 
 
+Presentation Slides: [Presentation Slides](slides.pdf)
+
 ## Objectives
 
 Our motivation behind this project was to approach object detection from a different perspective. Oftentimes, object detection in deep learning is to train a model that can mimic a human being's object detection ability. The picture below is what a typical object detection model does.
@@ -57,5 +59,3 @@ We can observe from the picture above that:
 3. Some models are quicker to converge than others. 
 
 Based on the limited approaches we tried, we can conclude that different training techniques and combining numeric features with image data to train a CNN-style model for our task did not help in a meaningful way.
-
-[Presentation Slides](slides.pdf)
