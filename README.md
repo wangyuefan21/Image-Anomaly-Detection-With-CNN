@@ -2,7 +2,7 @@
 
 This repo contains the slides and Jupyter notebook from Anthony Wang and Alan Wang's final project in MSDS 631 Introduction to Deep Learning at University of San Francisco. 
 
-Presentation Slides: [Presentation Slides](slides.pdf)
+[Presentation Slides](slides.pdf)
 
 ## Objectives
 
